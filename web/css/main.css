@@ -5,7 +5,22 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: Ranchers;
+    src: url(../fonts/Ranchers-Regular.ttf);
+}
+
 body {
-    background-color: #002542;
-    color: white;
+    background: url('../image/bg3.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.codesider {
+    position: absolute;
+    left: 15px;
+    top: 8px;
+    background-color:rgba(136, 136, 136, 0.712);
+    border-radius: 5px;
 }
